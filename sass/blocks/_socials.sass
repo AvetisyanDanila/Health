@@ -1,0 +1,125 @@
+.socials
+    padding: 80px 0
+    @media screen and ( max-width: 991px )
+        padding-top: 0
+        padding-bottom: 50px
+    & a 
+        text-decoration: none
+        outline: none
+    &-blocks
+        display: flex
+        justify-content: space-between
+        @media screen and ( max-width: 991px )
+            flex-direction: column
+            align-items: center
+    &-block
+        background-color: #252525
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1)
+        border-radius: 6px
+        width: 32%
+        @media screen and ( max-width: 991px )
+            width: 60%
+            margin-bottom: 40px
+            &:last-child
+                margin-bottom: 0
+        @media screen and ( max-width: 767px )
+            width: 70%
+        @media screen and ( max-width: 575px )
+            width: 100%
+        &_top
+            padding: 30px
+            border-bottom: 2px solid #303030
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &__icon
+            padding: 12.5px
+            background-color: transparent
+            border: 2px solid #303030
+            border-radius: 50%
+            transition: 0.3s
+            &:focus
+                outline: none
+            & svg
+                fill: #737373
+                transition: 0.3s
+            @media screen and ( min-width: 768px )
+                &_twitter:hover
+                    border: 2px solid #55acee
+                    & svg
+                        fill: #55acee
+                &_instagram:hover
+                    border: 2px solid #e4405f
+                    & svg
+                        fill: #e4405f
+                &_facebook:hover
+                    border: 2px solid #3b5999
+                    & svg
+                        fill: #3b5999
+        &__name
+            font-size: 14px
+            line-height: 30px
+            color: #BFBFBF
+            margin-left: 10px
+            @media screen and ( max-width: 1199px )
+                margin-left: 1px
+        &__button
+            font-family: 'Helv black'
+            font-size: 12px
+            line-height: 40px
+            letter-spacing: 0.2em
+            text-transform: uppercase
+            color: #737373
+            border: 2px solid #303030
+            border-radius: 30px
+            padding: 8px 20px
+            transition: 0.3s
+            @media screen and ( max-width: 1199px )
+                padding: 5px 5px
+            @media screen and ( max-width: 575px )
+                padding: 8px 20px
+            &:hover 
+                color: #737373
+            @media screen and ( min-width: 768px )
+                &_twitter
+                    &:hover
+                        color: #55acee
+                        border-color: #55acee
+                &_instagram
+                    &:hover
+                        color: #e4405f
+                        border-color: #e4405f
+                &_facebook
+                    &:hover
+                        color: #3b5999
+                        border-color: #3b5999
+        &__content 
+            padding: 20px
+        &__date
+            display: block
+            font-size: 14px
+            line-height: 30px
+            color: #737373
+        &__text
+            font-size: 14px
+            line-height: 30px
+            color: rgba(255, 255, 255, 0.7)
+            margin-top: 10px
+        &__nickname
+            display: block
+            margin-top: 10px
+            font-size: 14px
+            line-height: 30px
+            color: #34C759
+        &__imgs
+            display: flex
+            flex-wrap: wrap
+            & img
+                width: 33.333%
+                @media screen and ( max-width: 1199px )
+                    height: 120px
+                height: 120px
+                &:nth-of-type(4)
+                    border-bottom-left-radius: 9px
+                &:nth-of-type(6)
+                    border-bottom-right-radius: 9px

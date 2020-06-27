@@ -1,0 +1,177 @@
+.recipes
+    padding-top: 80px
+    padding-bottom: 80px
+    @media screen and ( max-width: 991px )
+        padding-top: 50px
+    @media screen and ( max-width: 575px )
+        padding-top: 120px
+    &-content
+        display: flex
+    &-tab
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 60px 90px
+        border-radius: 9px
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+        width: 70%
+        max-height: 533px
+        position: relative
+        @media screen and ( max-width: 1199px )
+            max-height: 580px
+        @media screen and ( max-width: 991px )
+            max-height: 500px
+            padding: 40px 90px
+        @media screen and ( max-width: 767px )
+            width: 100%
+        &_first
+            background-image: url(../img/recipes/1.jpg)
+        &_second
+            background-image: url(../img/recipes/2.jpg)
+        &_third
+            background-image: url(../img/recipes/3.jpg)
+        &__kindofmeal
+            font-family: 'Helv black'
+            font-size: 14px
+            line-height: 28px
+            letter-spacing: 1.25px
+            text-transform: uppercase
+            color: #fff
+            background-color: rgba(0, 0, 0, 0.3)
+            padding: 10px 16px
+            margin-bottom: 65px
+            border-radius: 9px
+            text-align: center
+            @media screen and ( max-width: 991px )
+                margin-bottom: 40px
+        &__date
+            font-family: 'Helv bold'
+            font-size: 14px
+            line-height: 30px
+            color: #fff
+            margin-bottom: 25px
+            text-align: center
+        &__title
+            font-size: 24px
+            line-height: 40px
+            color: #fff
+            text-align: center
+            margin-bottom: 45px
+            @media screen and ( max-width: 991px )
+                margin-bottom: 30px
+            @media screen and ( max-width: 991px )
+                font-size: 18px
+                line-height: 32px
+        &__name
+            font-size: 14px
+            line-height: 30px
+            color: #fff
+            font-family: 'Helv bold'
+            margin-bottom: 60px
+            text-align: center
+            @media screen and ( max-width: 991px )
+                margin-bottom: 20px
+    &-trace
+        display: flex
+        align-items: center
+        @media screen and ( max-width: 991px )
+            justify-content: center
+            margin-top: 10px
+    &__views
+        display: flex
+        align-items: center
+        margin-right: 24px
+        & img
+            margin-right: 12px
+        & span
+            font-family: 'Helv bold'
+            font-size: 14px
+            line-height: 30px
+            color: #fff
+    &__comments
+        display: flex
+        align-items: center
+        & img
+            margin-right: 12px
+        & span
+            font-family: 'Helv bold'
+            font-size: 14px
+            line-height: 30px
+            color: #fff
+    &-links 
+        margin-left: 30px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        @media screen and ( max-width: 767px )
+            margin-left: 0
+    &-link
+        background-color: #252525
+        border-radius: 9px
+        padding: 25px
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+        cursor: pointer
+        @media screen and ( max-width: 1199px )
+            margin-bottom: 20px
+        @media screen and ( max-width: 991px )
+            &:nth-of-type(3)
+                display: none
+        @media screen and ( max-width: 767px )
+            display: none
+        &_first
+            background-image: url(../img/recipes/1.jpg)
+        &_second
+            background-image: url(../img/recipes/2.jpg)
+        &_third
+            background-image: url(../img/recipes/3.jpg)
+        &__info
+            display: flex
+            justify-content: space-between
+            @media screen and ( max-width: 991px )
+                flex-direction: column
+        &_left
+            @media screen and ( max-width: 991px )
+                display: flex
+                justify-content: space-between
+                align-items: center
+        &__text
+            font-size: 16px
+            line-height: 30px
+            color: #fff
+            margin-bottom: 10px
+        &__kindofmeal
+            font-family: 'Helv black'
+            font-size: 14px
+            line-height: 28px
+            text-align: center
+            letter-spacing: 1.25px
+            text-transform: uppercase
+            color: #fff
+            padding: 10px 15px
+            background-color: rgba(0, 0, 0, 0.3)
+            border-radius: 9px
+        &__date
+            font-family: 'Helv bold'
+            font-size: 14px
+            line-height: 28px
+            color: #ffffff
+            margin-left: 15px
+    &__share
+        width: 40px
+        height: 40px
+        display: flex
+        align-items: center
+        justify-content: center
+        background-color: rgba(0, 0, 0, 0.3)
+        border-radius: 50%
+        position: absolute
+        top: 30px
+        right: 30px
+        transition: 0.3s
+        z-index: 5
+        &:hover
+            background-color: rgba(0, 0, 0, 0.6)

@@ -1,0 +1,102 @@
+.dishes
+    padding-top: 80px
+    @media screen and ( max-width: 991px )
+        padding-top: 50px
+    & a 
+        text-decoration: none
+        outline: none
+    &-blocks
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        @media screen and ( max-width: 1199px )
+            justify-content: center
+    &-block
+        background-color: #252525
+        border-radius: 10px
+        margin-bottom: 30px
+        position: relative
+        @media screen and ( max-width: 1199px )
+            margin-right: 30px
+        @media screen and ( max-width: 991px )
+            width: 45%
+        @media screen and ( max-width: 767px )
+            width: 70%
+            margin-right: 0
+        @media screen and ( max-width: 575px )
+            width: 85%
+        &__content
+            padding: 30px
+        &__img
+            width: 100%
+            border-top-left-radius: 10px
+            border-top-right-radius: 10px
+        &__title
+            font-size: 32px
+            line-height: 30px
+            color: #D9D9D9
+        &__subtitle
+            margin-top: 3px
+            font-size: 14px
+            line-height: 18px
+            letter-spacing: -0.15px
+            color: #A4A8B2
+        &__desc
+            margin-top: 20px
+            font-size: 14px
+            line-height: 18px
+            letter-spacing: -0.1625px
+            color: #85878C
+            max-width: 290px
+        &__footer
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-top: 20px
+        &__button
+            font-family: 'Helv black'
+            font-size: 14px
+            letter-spacing: 0.2em
+            text-transform: uppercase
+            color: rgba(255, 255, 255, 0.5)
+            border: 2px solid #303030
+            padding: 16px 32px
+            border-radius: 30px
+            transition: 0.3s
+            @media screen and ( max-width: 991px )
+                padding: 16px 24px
+        &:hover &__button
+            color: #252525
+            background: #34C759
+        &__stars
+            display: flex
+            align-items: center
+            & svg 
+                transition: 0.3s
+                fill: #4D4D4D
+            & span
+                color: #B3B3B3
+                letter-spacing: 1.5px
+                font-size: 12px
+                font-family: 'Helv black'
+                padding-top: 1px
+                padding-left: 5px
+                @media screen and ( max-width: 575px )
+                    padding-top: 5px
+        &:hover &__stars svg
+            fill: #F9AD3D
+        &__share
+            width: 40px
+            height: 40px
+            display: flex
+            align-items: center
+            justify-content: center
+            background-color: rgba(0, 0, 0, 0.3)
+            border-radius: 50%
+            position: absolute
+            top: 24px
+            right: 24px
+            transition: 0.3s
+            z-index: 5
+            &:hover
+                background-color: rgba(0, 0, 0, 0.6)

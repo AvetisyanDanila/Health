@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Helv Reg';
+  src: url("../fonts/HelveticaNeue.woff") format("woff");
+  src: url("../fonts/HelveticaNeue.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helv bold';
+  src: url("../fonts/HelveticaNeue-Bold.woff") format("woff");
+  src: url("../fonts/HelveticaNeue-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helv black';
+  src: url("../fonts/HelveticaNeue-Black.woff") format("woff");
+  src: url("../fonts/HelveticaNeue-Black.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helv thin';
+  src: url("../fonts/HelveticaNeue-Thin.woff") format("woff");
+  src: url("../fonts/HelveticaNeue-Thin.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+/*# sourceMappingURL=fonts.css.map */
